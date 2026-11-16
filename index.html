@@ -25,9 +25,28 @@
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
                 <a class="navbar-brand" href=".">LearnPDXSL</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
                 <!-- Expanded navigation -->
                 <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="." class="nav-link active" aria-current="page">Welcome to LearnPDXSL</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">1 introduction</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="1-introduction/1-1-creating-a-mod/" class="dropdown-item">1 1 creating a mod</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
 
                     <ul class="nav navbar-nav ms-md-auto">
                         <li class="nav-item">
@@ -35,6 +54,16 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
+                            <li class="nav-item">
+                                <a rel="prev" class="nav-link disabled">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="1-introduction/1-1-creating-a-mod/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
                     </ul>
                 </div>
             </div>
@@ -52,12 +81,39 @@
     
     <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
         <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#welcome-to-learnpdxsl" class="nav-link">Welcome to LearnPDXSL</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#goal" class="nav-link">Goal</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#disclaimer" class="nav-link">Disclaimer</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#getting-started" class="nav-link">Getting started</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
         </ul>
     </div>
 </div></div>
                     <div class="col-md-9" role="main">
 
-</div>
+<h1 id="welcome-to-learnpdxsl">Welcome to LearnPDXSL</h1>
+<h2 id="goal">Goal</h2>
+<p>This is LearnD3D11, a guide aimed at anyone trying to learn the Paradox Shading Language 
+used in games such as HOI4. This guide explains the basic usage of PDXSL 
+and shader programming, without requiring any previous experience with shaders.</p>
+<h2 id="disclaimer">Disclaimer</h2>
+<p>I'm just a college student and I do this in my free time. This project is also still a work in progress; 
+so some content may be missing or faulty. If you find typos, bugs or have questions, please open an issue or PR.</p>
+<h2 id="getting-started">Getting started</h2>
+<p>To get started reading LearnPDXSL, you can jump right into the
+<a href="1-introduction/1-1-creating-a-mod/">first chapter</a>!</p></div>
             </div>
         </div>
 
@@ -139,5 +195,5 @@
 
 <!--
 MkDocs version : 1.6.1
-Build Date UTC : 2026-11-16 18:29:50.448940+00:00
+Build Date UTC : 2026-11-16 18:40:42.238438+00:00
 -->
