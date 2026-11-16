@@ -1,2 +1,12 @@
 site_name: LearnPDXSL
 site_url: https://audreyfishyy.github.io/learnpdxsl/
+
+theme:
+  name: material
+  features:
+    - navigation.expand  # Expand all sidebar sections by default.
+
+nav:
+- Getting Started:
+  - Overview: index.md
+  - Creating a Mod: creating-a-mod.md
